@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.App {
+  padding-bottom: 100px;
+}
+
+body {
+  background: #ddd;
+  color: #4a4a4a;
+  font: 14px/20px 'Titillium Web', sans-serif;
+}
+
+textarea {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #666;
+  font: 16px/22px 'Titillium Web', sans-serif;
+  height: 110px;
+  margin-bottom: 14px;
+  padding: 20px;
+  width: 100%;
+}
+button {
+  background: #222f56;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  padding: 10px 28px;
+  &:hover {
+    background: #1b2648;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.box--white {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.icon {
+  background-color: #222f56;
+  border-radius: 50%;
+  height: 32px;
+  margin-right: 10px;
+  width: 32px;
+  text-indent: -9999px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
